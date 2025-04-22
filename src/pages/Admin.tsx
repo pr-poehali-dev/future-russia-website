@@ -164,13 +164,13 @@ const Admin = () => {
                           )}
                         </div>
                       )}
-                    </CardContent>
-                    <CardFooter>
-                      <Button type="submit" className="w-full bg-gradient-to-r from-blue-500 to-red-500">
-                        Загрузить материал
-                      </Button>
-                    </CardFooter>
-                  </form>
+                    </form>
+                  </CardContent>
+                  <CardFooter>
+                    <Button type="submit" onClick={handleFileUpload} className="w-full bg-gradient-to-r from-blue-500 to-red-500">
+                      Загрузить материал
+                    </Button>
+                  </CardFooter>
                 </Card>
               </TabsContent>
               
