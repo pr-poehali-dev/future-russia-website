@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Programs from "@/components/Programs";
 import ChildrenActivities from "@/components/ChildrenActivities";
+import OrlyataProgram from "@/components/OrlyataProgram";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Hero />
       <Features />
       <Programs />
+      <OrlyataProgram />
       <ChildrenActivities />
       <Footer />
     </div>
