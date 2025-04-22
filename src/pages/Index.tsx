@@ -1,18 +1,18 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
 import Features from "@/components/Features";
-import Programs from "@/components/Programs";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import Programs from "@/components/Programs";
+import ChildrenActivities from "@/components/ChildrenActivities";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div>
       <Navbar />
-      <main className="flex-grow">
-        <Hero />
-        <Features />
-        <Programs />
-      </main>
+      <Hero />
+      <Features />
+      <Programs />
+      <ChildrenActivities />
       <Footer />
     </div>
   );
